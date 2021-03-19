@@ -6,8 +6,6 @@ __pycache__/
 # C extensions
 *.so
 
-data/
-
 # Distribution / packaging
 .Python
 build/
@@ -129,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore data directory
+data/
+
+# ignore git swap files
+*.swp
