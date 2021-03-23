@@ -1,4 +1,4 @@
-name: geospatial
+name: geo_geospatial
 channels:
   - conda-forge
 dependencies:
@@ -14,3 +14,4 @@ dependencies:
   - descartes=1.1.0
   - folium=0.11.0
   - seaborn
+  - scikit-learn
